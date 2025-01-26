@@ -1,6 +1,6 @@
 # Chạy file như sau
 Đồng thơif chạy 4 file: v2_main_pro . sub_data_imu. sub_data_all, bdk_test
-Thực hiện lấy vị trí từ xla, góc từ imu ban đầu
+Thực hiện lấy vị trí từ xla, góc từ imu ban đầu để điều khiển, còn nếu test_main_pro thì là lây góc xác định từ xla để điều khiển, cần đọc file calcu.py để điều chỉnh trong đó
 các hệ số cần chỉnh là dpi_x, dpi_y, kích thước ảnh crop
 Hệ số của bđk gồm 3 thông số , hệ số tác động lên x (e[0][0]), y .. , z
 Có thể plot tại plot_data để hiển thị định vị, plot_quydaodieukhien để show hết, plot_imu để xem góc tư thế, lưu video, calib ảnh, set ảnh click lấy khoảng cách, 
